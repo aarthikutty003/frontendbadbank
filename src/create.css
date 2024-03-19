@@ -1,0 +1,18 @@
+.form .btn{
+   background: transparent; 
+   color:black;
+   border: 1px solid black;
+}
+.form .btn:hover.btn{
+    background-color: black;
+    color: white;
+}
+.form #btn-id{
+    background-color: black;
+    color: white;
+}
+
+.form #btn-id:hover#btn-id{
+    background-color: transparent;
+    color: black;
+}
