@@ -43,7 +43,7 @@ fetchData()
             }
             else {
               
-                await axios.put(`http://localhost:8081/update/${id}`, { amount: total + deposit }).then(setTotal(total + deposit)).then(alert(`amount ${deposit} is deposited successfully !`));
+                await axios.put(`https://serve-ad8f.onrender.com/update/${id}`, { amount: total + deposit }).then(setTotal(total + deposit)).then(alert(`amount ${deposit} is deposited successfully !`));
               setDeposit('')
             }
         }
